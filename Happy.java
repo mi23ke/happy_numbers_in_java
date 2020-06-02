@@ -20,7 +20,7 @@ public class Happy{
         num = Integer.parseInt(n);
       }
       catch (NumberFormatException nfe){
-        System.out.println("Input error. Please enter a numeric value.");//+nfe.getMessage());
+        System.out.println("Input error. Please enter a numeric value.");
       }
       temp = num;
       do{
